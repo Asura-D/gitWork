@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #tp{
+            margin-top: 50px;
+            margin-left: 520px;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+        }
+        select{
+            width: 305px;
+            height: 35px;
+        }
+        .sub {
+            margin: 20px;
+            width: 80px;
+            height: 40px;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+            outline: none;
+            text-indent: 0;
+            background-color: rgb(236, 8, 46);
+        }
+        .sub:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+<h1 align="center" >注册页面</h1>
+<div id="tp">
+    <dl>
+        <dt >
+        <dd><strong>用&nbsp;户&nbsp;名:&nbsp;</strong><input type="text" name="username"></dd>
+        <br>
+        <dd><strong>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:&nbsp;</strong><input type="password" name="password"></dd>
+        <br>
+        <dd><strong>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:&nbsp;</strong><input type="text" name="name"></dd>
+        <br>
+        <dd><strong>年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄:&nbsp;</strong><input type="text" name="age"></dd>
+        <br>
+        <dd><strong>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;院:&nbsp;</strong>
+            <select>
+                <option value="1">信息工程学院</option>
+                <option value="2">水利学院</option>
+                <option value="3">物电学院</option>
+                <option value="4">经济学院</option>
+                <option value="5">外国语学院</option>
+            </select>
+        </dd>
+        <br>
+        <dd><strong>专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业:&nbsp;</strong>
+            <select>
+                <option value="1" >软件工程</option>
+                <option value="2" >计算机科学与技术</option>
+                <option value="3" >网络工程</option>
+            </select>
+        </dd>
+        <br>
+        <dd><strong>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:&nbsp;</strong><input type="text" name="email"></dd>
+        <br>
+        <dd><strong>照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;片:&nbsp;</strong><input type="file" name="photo"></dd>
+        </dt>
+    </dl>
+</div>
+<div align="center">
+    <a href="test.html"><input type="submit" value="注册" class="sub"></a>
+</div>
+
+</body>
+</html>
